@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nema STARV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="sidenav">
+        <div class="container">
+            <div class="sidenav-wrapper">
+                <div class="logo-wrapper">
+                    <a href="#">
+                        <img class="logo" src="./starv_ikon2-1.svg">
+                    </a>
+                </div>
+                <div class="menu-wrapper">
+
+                    <div class="menu-section">
+                        <div class="menu-title">Hagtøl</div>
+                        <small>Vísir hagtøl</small>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="#" class="menu-link active">
+                                    <span class="material-symbols-outlined">assignment_turned_in</span>
+                                    <span>Aldurs og kynsbýti</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="material-symbols-outlined">equalizer</span>
+                                    <span>Grundlønarupplýsingar</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="material-symbols-outlined">engineering</span>
+                                    <span>Arbeiðslýsingar</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="material-symbols-outlined">group</span>
+                                    <span>Starvsfólk</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="menu-section">
+                        <div class="menu-title">Uppfylgingar</div>
+                        <small>Vísir uppfylgingar</small>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="material-symbols-outlined">cake</span>
+                                    <span>Føðingardagur</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="material-symbols-outlined">celebration</span>
+                                    <span>Starvsdagar</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="material-symbols-outlined">verified_user</span>
+                                    <span>Skeið, sum ganga út</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="material-symbols-outlined">pan_tool</span>
+                                    <span>Flyta lønarbólk</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="material-symbols-outlined">delete_sweep</span>
+                                    <span>Starvslýsingar (strikast)</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="menu-section">
+                        <div class="menu-title">Størv</div>
+                        <small>Nýggj størv</small>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="material-symbols-outlined">work</span>
+                                    <span>Nýggj størv</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="menu-section">
+                        <div class="menu-title">Dagligt</div>
+                        <small>Tað dagliga</small>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="material-symbols-outlined">cake</span>
+                                    <span>Deildir</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="material-symbols-outlined">celebration</span>
+                                    <span>Mannagongdir</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="material-symbols-outlined">verified_user</span>
+                                    <span>Starvslýsingar</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="material-symbols-outlined">pan_tool</span>
+                                    <span>Starvsfólk</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main id="main">
+
+        <section id="navbar">
+            <div class="navbar-container">
+                <div class="navbar-wrapper">
+                    <div id="menu-toggler" onclick="toggleNav()">
+                        <span class="material-symbols-outlined">menu</span>
+                    </div>
+                    <div class="user-profile">
+                        <div class="name">Oddfríður Petersen</div>
+                        <span class="material-symbols-outlined">account_circle</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="header">
+            <div class="header-container">
+                <div class="header-wrapper">
+                    <div class="breadcrumb">
+                        <div class="parent-page">Hagtøl</div>
+                        <span class="material-symbols-outlined">chevron_right</span>
+                        <div class="current-page">Aldurs og kynsbýti</div>
+                    </div>
+                    <h1>Aldurs og kynsbýti</h1>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>
